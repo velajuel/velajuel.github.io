@@ -1,3 +1,7 @@
+img	{
+	border-radius: 50%;
+}
+
 <style>
 h1 {
     font-size: 35px;
@@ -27,11 +31,11 @@ h1 {
 }
 
 h2 {
-	color : black;
+	color : white;
 }
 
 h3 {
-	color : red;
+	color : green;
 }
 
 h4 {
@@ -39,7 +43,7 @@ h4 {
 }
 
 p {
-	color : black;
+	color : red;
 }
 
 #id-example {
@@ -55,7 +59,7 @@ p {
 }
 
 html {
-  background: url(https://i.redd.it/y4o4i8irp96x.jpg) no-repeat center center fixed;
+  background: url(https://i.redd.it/uy02b17cywey.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -98,4 +102,7 @@ a:active {
 }
 
 <a class="button">Add Problem</a>
+
+
+
 
