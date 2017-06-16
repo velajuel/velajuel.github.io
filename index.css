@@ -1,0 +1,101 @@
+<style>
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+p {
+    font-size: 40px;
+}
+</style>
+
+
+
+h1 {
+  color: green;
+}
+
+h2 {
+	color : black;
+}
+
+h3 {
+	color : red;
+}
+
+h4 {
+	color : red;
+}
+
+p {
+	color : black;
+}
+
+#id-example {
+  font-family: "Lobster";
+}
+
+.class-example {
+  font-style: bold;
+}
+
+.another-class {
+  font-size: 400%;
+}
+
+html {
+  background: url(https://i.redd.it/y4o4i8irp96x.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+<style>
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+<a class="button">Add Problem</a>
+
