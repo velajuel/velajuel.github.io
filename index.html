@@ -23,7 +23,6 @@
 
    <p align="center">:::Welcome to Fs0ciety:::</p>  
 
-<!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/316px-Anonymous_emblem.svg.png"> -->
 
 <img src="https://pbs.twimg.com/profile_images/824716853989744640/8Fcd0bji.jpg" style="width:200px;height:200px;">
 
@@ -53,3 +52,40 @@
 </address>
 
 </body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<img id = "header1" src = "https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/8064/large/1441734680/fsociety.png" width="100" height="100">
+
+<img id = "header2" src = "http://image-cdn.neatoshop.com/styleimg/51897/none/black/default/333654-19;1478313984.jpg?v=b" width="100" height="100">
+<!-- <script>
+$(document).ready(function(){
+    $("#footer1").click(function(){
+        $("#footer2").hide();
+    });
+    $("#footer2").click(function(){
+        $("#footer1").show();
+    });
+});
+</script> -->
+
+<script>
+$(function() {
+ $('#header1').click(function(){
+     if($('#header1').attr('src') == "https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/8064/large/1441734680/fsociety.png"){
+         $("#header2").attr('src',"http://image-cdn.neatoshop.com/styleimg/51897/none/black/default/333654-19;1478313984.jpg?v=b")
+     }else{
+           $("#header1").attr('src',"https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/8064/large/1441734680/fsociety.png");
+     }
+ });
+
+//   $('#header2').click(function(){
+//       if ($('#header2').attr('src') == "http://image-cdn.neatoshop.com/styleimg/51897/none/black/default/333654-19;1478313984.jpg?v=b"){
+//            $("#header2").attr('src',"https://d21ii91i3y6o6h.cloudfront.net/gallery_images/from_proof/8064/large/1441734680/fsociety.png")
+//        }else{
+//            $("#header2").attr('src', "http://image-cdn.neatoshop.com/styleimg/51897/none/black/default/333654-19;1478313984.jpg?v=b");
+//        }
+//  });
+// });
+</script> 
